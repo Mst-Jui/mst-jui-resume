@@ -1,48 +1,61 @@
 [
   {
     "id": 1,
-    "name": "Portfolio Website",
-    "image": "/images/portfolio.png",
+    "name": "Book Borro Website",
+    "image": "https://i.ibb.co/KMPxPMn/Gemini-Generated-Image-cy5xoqcy5xoqcy5x.png",
     "techStack": [
       "Next.js",
-      "React",
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "HeroUI",
+      "DaisyUi",
+      "React-Icons",
+      "BetterAuth",
+      "MongoDB",
+      "vercel",
+      "swiperjs"
     ],
-    "description": "A modern personal portfolio website to showcase skills, projects, and contact information with responsive design.",
-    "liveLink": "https://your-portfolio.vercel.app",
-    "githubClient": "https://github.com/your-username/portfolio-client",
+    "description": "Book Borro is a full-stack web application that brings the traditional library experience into the digital world. Users can browse books, filter by categories, and borrow books seamlessly with a secure authentication system.",
+    "liveLink": "https://book-borro.vercel.app",
+    "githubClient": "https://github.com/Mst-Jui/book-borro",
     "challenges": "Handling responsive layout and optimizing image loading in Next.js.",
-    "futurePlans": "Add blog section and improve animations with Framer Motion."
+    "futurePlans": "Include adding a recommendation system, implementing real-time notifications, and enhancing UI/UX with more animations and performance optimizations."
   },
   {
     "id": 2,
-    "name": "E-Commerce App",
-    "image": "/images/ecommerce.png",
+    "name": "pixgen",
+    "image": "https://i.ibb.co/bgFLPtt5/Gemini-Generated-Image-ewb241ewb241ewb2.png",
     "techStack": [
       "Next.js",
-      "Node.js",
+      "Tailwind CSS",
+      "DaisyUi",
+      "React-Icons",
+      "BetterAuth",
       "MongoDB",
-      "Stripe"
+      "vercel"
     ],
-    "description": "A full-stack e-commerce application with product listing, cart system, and secure payment integration.",
-    "liveLink": "https://your-ecommerce.vercel.app",
-    "githubClient": "https://github.com/your-username/ecommerce-client",
+    "description": "PixGen is a modern AI-powered image generation platform that transforms simple text prompts into high-quality, visually stunning images. It enables users to explore creativity by generating diverse styles such as realistic portraits, fantasy worlds, cyberpunk scenes, and more. The platform is designed with performance and scalability in mind, offering fast image generation, an interactive gallery of top creations, and a clean, responsive user interface. With intuitive navigation and categorized outputs, PixGen delivers a seamless and engaging experience for users to create and discover AI-generated art effortlessly.",
+    "liveLink": "https://pixgen-omega.vercel.app",
+    "githubClient": "https://github.com/Mst-Jui/pixgen",
     "challenges": "Implementing authentication and integrating Stripe payment gateway.",
-    "futurePlans": "Add admin dashboard and product recommendation system."
+    "futurePlans": "Additionally, more advanced prompt control features will be added to give users greater flexibility and precision in generating AI images."
   },
   {
     "id": 3,
-    "name": "Blog Platform",
-    "image": "/images/blog.png",
+    "name": "Dragon-News",
+    "image": "https://i.ibb.co/hJ0Hhcwd/Gemini-Generated-Image-xjkh13xjkh13xjkh.png",
     "techStack": [
       "Next.js",
-      "Firebase",
-      "Tailwind CSS"
+      "React-Icons",
+      "BetterAuth",
+      "MongoDB",
+      "vercel",
+      "Tailwind CSS",
+      "HeroUI"
     ],
-    "description": "A blog platform where users can create, edit, and publish posts with authentication system.",
-    "liveLink": "https://your-blog.vercel.app",
-    "githubClient": "https://github.com/your-username/blog-client",
-    "challenges": "Managing real-time data and securing user authentication.",
-    "futurePlans": "Add comment system and rich text editor."
+    "description": "This project is a modern and responsive news portal web application designed to deliver the latest news across multiple categories such as breaking news, international, sports, entertainment, and more. It allows users to easily browse, filter, and read detailed news articles with a clean and user-friendly interface.The platform focuses on providing a smooth reading experience with organized content, dynamic news rendering, and category-based navigation. It also includes features like trending news, ratings, and author details to enhance user engagement.",
+    "liveLink": "https://dragon-news-lemon.vercel.app",
+    "githubClient": "https://github.com/Mst-Jui/dragon-news",
+    "challenges": "Faced challenges in managing dynamic news data, implementing category-based filtering, handling API integration, and ensuring a fully responsive and user-friendly UI across devices.",
+    "futurePlans": "A dynamic news platform that delivers real-time updates across multiple categories with smooth navigation and structured content."
   }
 ]
