@@ -12,7 +12,7 @@ const ProjectDetailsPage = async ({ params }) => {
   if (!project) {
     return (
       <div className="text-center py-20">
-        <h2 className="text-2xl font-bold text-emerald-500">Project Not Found</h2>
+        <h2 className="text-3xl font-bold text-emerald-500">Project Not Found</h2>
       </div>
     );
   }
