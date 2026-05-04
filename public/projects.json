@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "E-Commerce Website",
+    "image": "/project1.jpg",
+    "slug": "ecommerce-website",
+    "shortDescription": "A full-stack e-commerce platform with cart, payment system, and admin dashboard.",
+    "liveLink": "https://your-live-link.com",
+    "githubClient": "https://github.com/your-username/ecommerce-client",
+    "technologyStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB",
+      "Stripe"
+    ],
+    "challenges": "Handling secure payment integration and managing complex cart state.",
+    "futurePlans": "Add AI product recommendation system and improve performance with caching."
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website",
+    "image": "/project2.jpg",
+    "slug": "portfolio-website",
+    "shortDescription": "A modern responsive personal portfolio built with Next.js and Tailwind CSS.",
+    "liveLink": "https://your-live-link.com",
+    "githubClient": "https://github.com/your-username/portfolio-client",
+    "technologyStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
+    "challenges": "Designing a clean UI and making it fully responsive across all devices.",
+    "futurePlans": "Add blog system and dark/light mode toggle with better animations."
+  },
+  {
+    "id": 3,
+    "name": "Blog Platform",
+    "image": "/project3.jpg",
+    "slug": "blog-platform",
+    "shortDescription": "A blogging platform with authentication and markdown support.",
+    "liveLink": "https://your-live-link.com",
+    "githubClient": "https://github.com/your-username/blog-client",
+    "technologyStack": [
+      "Next.js",
+      "Express.js",
+      "MongoDB",
+      "JWT Authentication"
+    ],
+    "challenges": "Implementing secure authentication and markdown rendering.",
+    "futurePlans": "Add comment system, likes, and social sharing features."
+  }
+]
