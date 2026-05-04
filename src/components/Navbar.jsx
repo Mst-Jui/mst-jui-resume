@@ -15,30 +15,32 @@ const Navbar = () => {
               tabIndex="-1"
               className="menu menu-sm dropdown-content bg-base-100 rounded-box [z-100] mt-3 w-52 p-2 shadow">
               <li>
-                <NavLink href={"/"}>Home</NavLink>
+                <NavLink href={"/"}>HOME</NavLink>
               </li>
               <li>
-                <NavLink href={"/about"}>About</NavLink>
+                <NavLink href={"/about"}>ABOUT</NavLink>
               </li>
               <li>
-                <NavLink href={"/projects"}>Projects</NavLink>
+                <NavLink href={"/projects"}>PROJECTS</NavLink>
               </li>
               <li>
-                <NavLink href={"/contact"}>Contact</NavLink>
+                <NavLink href={"/skills"}>SKILLS</NavLink>
               </li>
               <li>
-                <Link href={"/skills"}>Skills</Link>
+                <NavLink href={"/contact"}>CONTACT</NavLink>
               </li>
               <li>
-                <Link href={"/quality"}>Quality</Link>
+                <NavLink href={"/academics"}>ACADEMICS</NavLink>
               </li>
 
             </ul>
           </div>
-          <Link 
-          className='font-bold text-2xl'
-          href={"/"}>Mst-Jui</Link>
-          
+          <Link
+            className='font-bold text-2xl'
+            href={"/"}>
+            Mst.<span className='text-emerald-700'>Jui</span>
+          </Link>
+
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -60,13 +62,13 @@ const Navbar = () => {
             <li>
               <details>
                 <summary className='font-medium text-gray-500'>More</summary>
-                <ul className="p-2 bg-base-100 w-40 [z-100]">
+                <ul className="p-4 w-40 [z-100]">
                   <li>
-                    <Link href={"/academics"}>Academics</Link>
+                    <NavLink href={"/academics"}>ACADEMICS</NavLink>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href={"/quality"}>Quality</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </details>
             </li>

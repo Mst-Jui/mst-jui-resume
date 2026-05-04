@@ -39,9 +39,11 @@ const Banner = () => {
 
             {/* Button */}
             <div className="mt-6">
+              <Link href={"/projects"}>
               <button className="border bg-none bg-transparent border-emerald-700 text-emerald-700 px-10 py-4 rounded-full font-bold transition-all hover:text-white hover:bg-emerald-700 hover:scale-105 active:scale-95 shadow-lg shadow-gray-300">
                 View Projects
               </button>
+              </Link>
 
             </div>
           </div>
