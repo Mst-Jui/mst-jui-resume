@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const Projects = async () => {
-  const res = await fetch("https://mst-jui-resume.vercel.app/projects.json",{
+  const res = await fetch("/projects.json",{
     cache: 'no-store',
   })
   const projects = await res.json()
