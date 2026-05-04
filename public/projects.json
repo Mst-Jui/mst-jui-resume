@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio Website",
+    "image": "/images/portfolio.png",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS"
+    ],
+    "description": "A modern personal portfolio website to showcase skills, projects, and contact information with responsive design.",
+    "liveLink": "https://your-portfolio.vercel.app",
+    "githubClient": "https://github.com/your-username/portfolio-client",
+    "challenges": "Handling responsive layout and optimizing image loading in Next.js.",
+    "futurePlans": "Add blog section and improve animations with Framer Motion."
+  },
+  {
+    "id": 2,
+    "name": "E-Commerce App",
+    "image": "/images/ecommerce.png",
+    "techStack": [
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Stripe"
+    ],
+    "description": "A full-stack e-commerce application with product listing, cart system, and secure payment integration.",
+    "liveLink": "https://your-ecommerce.vercel.app",
+    "githubClient": "https://github.com/your-username/ecommerce-client",
+    "challenges": "Implementing authentication and integrating Stripe payment gateway.",
+    "futurePlans": "Add admin dashboard and product recommendation system."
+  },
+  {
+    "id": 3,
+    "name": "Blog Platform",
+    "image": "/images/blog.png",
+    "techStack": [
+      "Next.js",
+      "Firebase",
+      "Tailwind CSS"
+    ],
+    "description": "A blog platform where users can create, edit, and publish posts with authentication system.",
+    "liveLink": "https://your-blog.vercel.app",
+    "githubClient": "https://github.com/your-username/blog-client",
+    "challenges": "Managing real-time data and securing user authentication.",
+    "futurePlans": "Add comment system and rich text editor."
+  }
+]
