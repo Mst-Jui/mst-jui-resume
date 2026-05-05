@@ -14,9 +14,9 @@ import { SiMongodb, SiNextdotjs } from 'react-icons/si';
 
 const Banner = () => {
   return (
-    <div className="bg-gray-100 min-h-screen container mx-auto">
+    <div className="min-h-[95] overflow-x-hidden">
 
-      <div className="px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="bg-gray-100 max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
 
         {/* Left Column (Left Side) */}

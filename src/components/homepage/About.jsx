@@ -17,12 +17,12 @@ import "swiper/css/effect-fade";
 
 const About = () => {
   return (
-    <div className='container mx-auto'>
-      <section className="py-20 px-6 bg-gray-100">
+    <div className='container mx-auto mt-15'>
+      <section className="pt-2 px-6 bg-gray-100">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <p className="text-emerald-600 text-3xl font-medium italic mb-2">About me</p>
+            <p className="text-emerald-600 text-3xl font-medium italic mb-2 mt-4">About me</p>
             <h2 className="text-3xl md:text-4xl font-bold text-[#1f2937]">
               Things you should know before starting!
             </h2>
@@ -86,8 +86,8 @@ const About = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                       </svg>
                     </div>
-                    <h3 className="text-3xl font-black text-gray-800">30+</h3>
-                    <p className="text-gray-500 text-sm font-medium uppercase tracking-wider">Academic Projects</p>
+                    <h3 className="text-xl font-black text-gray-800">30+</h3>
+                    <p className="text-gray-500 text-xs font-medium uppercase tracking-wider">Academic Projects</p>
                   </div>
                 </div>
 
@@ -99,8 +99,8 @@ const About = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                       </svg>
                     </div>
-                    <h3 className="text-3xl font-black text-gray-800">100%</h3>
-                    <p className="text-gray-500 text-sm font-medium uppercase tracking-wider">Dedication & Learning</p>
+                    <h3 className="text-xl font-black text-gray-800">100%</h3>
+                    <p className="text-gray-500 text-xs font-medium uppercase tracking-wider">Dedication & Learning</p>
                   </div>
                 </div>
 
@@ -112,8 +112,8 @@ const About = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                       </svg>
                     </div>
-                    <h3 className="text-3xl font-black text-gray-800">10+</h3>
-                    <p className="text-gray-500 text-sm font-medium uppercase tracking-wider">Modern Tech Tools</p>
+                    <h3 className="text-xl font-black text-gray-800">10+</h3>
+                    <p className="text-gray-500 text-xs font-medium uppercase tracking-wider">Modern Tech Tools</p>
                   </div>
                 </div>
 
