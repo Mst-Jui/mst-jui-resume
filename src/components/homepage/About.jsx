@@ -195,7 +195,7 @@ const About = () => {
               </div>
 
               {/* Buttons */}
-              <div className="flex gap-4 pt-4">
+              <div className="flex gap-4 pt-4 pb-8">
                 <Link href={"https://www.linkedin.com/in/mstjui/"}>
                   <button className="bg-emerald-700 text-white px-10 py-4 rounded-full font-bold transition-all hover:bg-emerald-600 hover:scale-105 active:scale-95 shadow-lg shadow-gray-300">
                     LinkedIn

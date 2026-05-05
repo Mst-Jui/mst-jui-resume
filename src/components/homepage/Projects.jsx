@@ -10,7 +10,7 @@ const Projects = async () => {
   });
   const projects = await res.json();
   return (
-    <div className="container mx-auto bg-gray-100">
+    <div className="container mx-auto bg-gray-100 pb-7">
       {/* Heading  */}
       <div className="text-center my-15">
         <p className="pt-8 text-emerald-600 text-3xl font-medium italic mb-2"> My Projects</p>
