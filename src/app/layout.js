@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "../components/Footer";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -35,3 +36,26 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+// module.exports = {
+//   darkMode: "class",
+// }
+
+
+
+//   1 npm install next-themes
+//   2 import { ThemeProvider } from "next-themes";
+{/*3 <html suppressHydrationWarning>
+  <body>
+    <ThemeProvider attribute="class">
+      {children}
+    </ThemeProvider>
+  </body>
+</html> */}
+//  4 <ThemeToggle />
+{/*  5 <ThemeProvider attribute="class">
+  <div className="bg-white text-black dark:bg-black dark:text-white">
+    {children}
+  </div>
+</ThemeProvider> */}

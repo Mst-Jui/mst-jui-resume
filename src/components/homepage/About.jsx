@@ -17,7 +17,7 @@ import "swiper/css/effect-fade";
 
 const About = () => {
   return (
-    <div className='container mx-auto mt-15'>
+    <div className='container mx-auto '>
       <section className="pt-2 px-6 bg-gray-100">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}

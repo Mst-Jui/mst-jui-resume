@@ -3,7 +3,7 @@ import { DiSnapSvg } from 'react-icons/di';
 
 const ResumeButton = () => {
   return (
-    <div className='max-w-7xl mx-auto'>
+    <div className='max-w-7xl mx-auto bg-gray-100 pb-8 pt-8'>
       {/* title  */}
       <div className="text-center mb-16">
         <p className="text-emerald-600 text-3xl font-medium italic mb-2 mt-8">My Resume</p>
@@ -18,7 +18,7 @@ const ResumeButton = () => {
       </div>
 
       {/* main part  */}
-      <div className="flex justify-center items-center flex-col md:flex-row gap-4 w-full mb-8">
+      <div className="flex justify-center items-center flex-col md:flex-row gap-4 w-full">
         {/* Download Button */}
         <a
           href="/resume.pdf"

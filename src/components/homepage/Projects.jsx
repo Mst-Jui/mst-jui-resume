@@ -12,7 +12,7 @@ const Projects = async () => {
   return (
     <div className="container mx-auto bg-gray-100 pb-7">
       {/* Heading  */}
-      <div className="text-center my-15">
+      <div className="text-center">
         <p className="pt-8 text-emerald-600 text-3xl font-medium italic mb-2"> My Projects</p>
         <h2 className="text-3xl md:text-4xl font-bold text-[#1f2937]">
           Turning ideas into real applications!

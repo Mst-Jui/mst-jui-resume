@@ -2,6 +2,7 @@ import React from 'react';
 import NavLink from './NavLink';
 import Link from 'next/link';
 
+
 const Navbar = () => {
   return (
     <div>
@@ -82,8 +83,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <input type="checkbox" defaultChecked className="toggle" />
+          {/* <input type="checkbox" defaultChecked className="toggle" /> */}
           {/* <a className="btn">Button</a> */}
+          
         </div>
       </div>
     </div>
