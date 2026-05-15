@@ -103,7 +103,14 @@ const Skills = () => {
                 <div className="flex items-center justify-center w-16 h-16 rounded-full bg-slate-50 border border-slate-100 mb-4 group-hover:scale-110 transition-all duration-500">
                   <FaNodeJs size={32} className="text-[#339933]" />
                 </div>
-                <span className="text-slate-700 font-bold text-sm text-center group-hover:text-black">Node JS</span>
+                <span className="text-slate-700 font-bold text-sm text-center group-hover:text-black">Node.js</span>
+              </div>
+              {/* Express.js Card */}
+              <div className="group flex flex-col items-center justify-center p-6 bg-white border border-slate-200 rounded-[2rem] w-full sm:w-[160px] shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
+                <div className="flex items-center justify-center w-16 h-16 rounded-full bg-slate-50 border border-slate-100 mb-4 group-hover:scale-110 transition-all duration-500">
+                  <SiExpress size={32} className="text-[#000000]" />
+                </div>
+                <span className="text-slate-700 font-bold text-sm text-center group-hover:text-black">Express.js</span>
               </div>
 
               {/* MongoDB Card */}
@@ -225,7 +232,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              {/* <div>
+               <div>
                 <div className="flex items-center gap-2">
                   <SiExpress />
                   <p>Express.js</p>
@@ -233,7 +240,7 @@ const Skills = () => {
                 <div className="w-full bg-gray-200 h-2 rounded">
                   <div className="bg-gradient-to-r from-gray-400 to-gray-600 h-2 rounded w-[70%]"></div>
                 </div>
-              </div> */}
+              </div> 
 
               <div>
                 <div className="flex items-center gap-2">
@@ -285,7 +292,7 @@ const Skills = () => {
                   <div className="bg-gradient-to-r from-blue-400 to-indigo-500 h-2 rounded w-[90%]"></div>
                 </div>
               </div>
-
+                    {/* Postman  */}
               <div>
                 <div className="flex items-center gap-2">
                   <SiPostman className="text-orange-400" />
@@ -295,6 +302,8 @@ const Skills = () => {
                   <div className="bg-gradient-to-r from-orange-300 to-orange-500 h-2 rounded w-[75%]"></div>
                 </div>
               </div>
+              
+             
 
 
             </div>

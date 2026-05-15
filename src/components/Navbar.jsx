@@ -27,6 +27,9 @@ const Navbar = () => {
                 <NavLink href={"/skills"}>SKILLS</NavLink>
               </li>
               <li>
+                <NavLink href={"/resume"}>RESUME</NavLink>
+              </li>
+              <li>
                 <NavLink href={"/contact"}>CONTACT</NavLink>
               </li>
               <li>
@@ -55,6 +58,9 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink href={"/skills"}>SKILLS</NavLink>
+            </li>
+            <li>
+              <NavLink href={"/resume"}>RESUME</NavLink>
             </li>
             <li>
               <NavLink href={"/contact"}>CONTACT</NavLink>

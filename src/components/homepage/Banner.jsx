@@ -40,9 +40,9 @@ const Banner = () => {
             {/* Button */}
             <div className="mt-6">
               <Link href={"/projects"}>
-              <button className="border bg-none bg-transparent border-emerald-700 text-emerald-700 px-10 py-4 rounded-full font-bold transition-all hover:text-white hover:bg-emerald-700 hover:scale-105 active:scale-95 shadow-lg shadow-gray-300">
-                View Projects
-              </button>
+                <button className="border bg-none bg-transparent border-emerald-700 text-emerald-700 px-10 py-4 rounded-full font-bold transition-all hover:text-white hover:bg-emerald-700 hover:scale-105 active:scale-95 shadow-lg shadow-gray-300">
+                  View Projects
+                </button>
               </Link>
 
             </div>
@@ -100,10 +100,24 @@ const Banner = () => {
                 </div>
               </Marquee>
             </div>
-            {/* Download CV Button */}
-            <button className="bg-emerald-700 text-white px-10 py-4 rounded-full font-bold transition-all hover:bg-emerald-600 hover:scale-105 active:scale-95 shadow-lg shadow-gray-300">
-              Resume
-            </button>
+            {/* Download resume Button */}
+            
+            <a
+              href="/resume.pdf"
+              download="Jui_Akter_Resume.pdf"
+              className="hover:scale-105 active:scale-95 shadow-gray-300 mt-4 inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 bg-emerald-700 hover:bg-emerald-600  rounded-full  shadow-lg hover:shadow-purple-500/30 w-fit"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              Download Resume
+            </a>
           </div>
         </div>
 

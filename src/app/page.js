@@ -4,6 +4,7 @@ import Banner from "@/components/homepage/Banner";
 import Contact from "@/components/homepage/Contact";
 import Projects from "@/components/homepage/Projects";
 import Skills from "@/components/homepage/Skills";
+import ResumeButton from "@/components/ResumeButton";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       <Projects />
       <Contact />
       <Academics />
-
+      <ResumeButton />
     </div>
   );
 }
