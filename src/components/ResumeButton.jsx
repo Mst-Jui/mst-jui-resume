@@ -22,7 +22,7 @@ const ResumeButton = () => {
         {/* Download Button */}
         <a
           href="/resume.pdf"
-          download="Jui_Akter_Resume.pdf"
+          download="Mst_Jui_Akter_Full_Stack_Developer_Resume.pdf"
           className="hover:scale-105 active:scale-95 shadow-gray-300 mt-4 inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 bg-emerald-700 hover:bg-emerald-600  rounded-full  shadow-lg hover:shadow-purple-500/30 w-full md:w-fit"
         >
           <svg
